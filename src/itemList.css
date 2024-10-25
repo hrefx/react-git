@@ -1,0 +1,11 @@
+.itemList{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    flex-wrap: wrap;
+}
+@media (max-width:858px) {
+    .itemList{
+        height:200px;
+    }
+}

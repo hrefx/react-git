@@ -1,0 +1,23 @@
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:4rem;
+    border:0.4rem solid pink;
+    background-color: rgb(52, 110, 197);
+    color:black;
+    width:30%;
+    height:20%;
+    margin:5px;
+}
+.item a{
+    text-decoration: none;
+}
+.item-container{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

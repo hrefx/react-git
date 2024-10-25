@@ -1,0 +1,28 @@
+.loading {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.451);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-circle {
+    width: 60px;
+    height: 60px;
+    border: 7px solid rgba(0, 0, 0, 0.534);
+    border-top: 7px solid rgb(18, 112, 171);
+    border-radius: 100%;
+    animation: skibidi 1s infinite linear;
+}
+
+@keyframes skibidi {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
